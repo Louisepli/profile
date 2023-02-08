@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Unbounded:wght@900&display=swap');
+/* Commentaire */
+
+html {
+  font-size:16px;
+}
+
+h1 {
+  color:#10403B;
+  font-size:80px;
+  text-decoration: underline;
+}
+
+h1, h2 {
+  font-family: 'Unbounded', cursive;
+}
+
+h2 {
+  font-size:40px;
+  margin-bottom:0;
+}
+
+img {
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color:#10403B;
+  background-color:#10403B;
+}
+
+.list-inline {
+  padding:0;
+  list-style: none;
+}
+
+.list-inline li {
+  display:inline-block;
+  margin:0 30px;
+  font-size: 50px;
+}
+
+.fa-brands {
+  color: #10403B;
+
+}
+
+.button-green {
+  background-color: #8AA6A3;
+  border-radius:8px;
+  padding:12px 16px;
+  color:white;
+  text-decoration: none;
+  display: inline-block;
+  transition:1s;
+}
+
+.button-green:hover {
+  background-color:#4C5958;
+  transition:1s;
+}
+
+div {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 700px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
